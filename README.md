@@ -18,6 +18,10 @@ Julio 2026
 3.1. SGD y sus variantes para clasificación
 3.2. SGD y sus variantes en redes neuronales para regresión
 
+# Base de imágenes seleccionada
+BloodMNIST es un dataset para análisis médico y visión por computadora: son 28x28 píxeles en escala de grises/RGB (imágenes médicas comprimidas al estilo MNIST) con 8 clases de células sanguíneas periféricas (basófilos, eosinófilos, eritroblastos, ig, linfocitos, monocitos, neutrófilos y plaquetas).
+Disponible mediante la librería oficial medmnist
+
 # Detalles de cada metodología:
 
 1. SGD y alguna de sus variantes
