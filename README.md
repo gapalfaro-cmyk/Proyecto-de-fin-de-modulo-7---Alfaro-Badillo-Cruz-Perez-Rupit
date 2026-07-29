@@ -32,7 +32,7 @@ Realizar una revisión de la documentación de scikit-learn sobre el
 uso de descenso de gradiente estocástico, tanto para regresión como para clasificación.
 En particular, deberán revisar las clases SGDRegressor y SGDClassifier.
 
-1 El objetivo del proyecto es explicar cómo se implementa SGD en scikit-learn,
+- 1 El objetivo del proyecto es explicar cómo se implementa SGD en scikit-learn,
 qué funciones de pérdida permite usar, qué parámetros son importantes y
 cómo se relaciona su funcionamiento con lo estudiado en clase.
 Hacer un ejemplito de uso con datos reales:
@@ -59,7 +59,7 @@ Usar redes neuronales para un problema de clasificación de imágenes. El
 objetivo es comparar el comportamiento de diferentes optimizadores en el
 entrenamiento de una misma arquitectura de red neuronal.
 
-# 2 Actividades
+2 Actividades
 a) Construir una red neuronal convolucional sencilla para clasificación de
 imágenes.
 
