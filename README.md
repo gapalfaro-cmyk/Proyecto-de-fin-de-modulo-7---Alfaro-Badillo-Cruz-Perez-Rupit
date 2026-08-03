@@ -1,4 +1,4 @@
-## Programaciones para el desarrollo de la Tarea del Módulo VII del Diplomado en Introducción Analítica a la Ciencia de Datos
+## Programaciones para el desarrollo de la Tarea 1 del Módulo VII del Diplomado en Introducción Analítica a la Ciencia de Datos
 
 Módulo 7: Optimización en aprendizaje de máquina
 Tarea 1
