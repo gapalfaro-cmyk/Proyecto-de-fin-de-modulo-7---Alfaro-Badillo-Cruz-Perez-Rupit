@@ -43,8 +43,10 @@ Disponible mediante la librería oficial medmnist
         - Cómo se relaciona su funcionamiento con lo estudiado en clase.
 
     Hacer un ejemplo de uso con datos reales:
-       a) Revisar la documentación oficial de: SGDRegressor y SGDClassifier.
+       
         
+       a) Revisar la documentación oficial de: SGDRegressor y SGDClassifier.
+
        b) Explicar el papel de los siguientes elementos:
             función de pérdida; 
             tasa de aprendizaje;
@@ -62,7 +64,7 @@ Disponible mediante la librería oficial medmnist
         regresión lineal ordinaria para el problema de regresión;
         regresión logística para el problema de clasificación.
     
-3. SGD y sus variantes en redes neuronales, escoger
+4. SGD y sus variantes en redes neuronales, escoger
 uno de los siguientes:
 
     3.1. SGD y sus variantes para clasificación
