@@ -109,6 +109,7 @@ uno de los siguientes:
     El objetivo es comparar el comportamiento de diferentes optimizadores en el entrenamiento de una red neuronal para regresión.
     
     Actividades
+   
         a) Explorar la base de datos seleccionada.
         
         b) Separar los datos en entrenamiento, validación y prueba.
