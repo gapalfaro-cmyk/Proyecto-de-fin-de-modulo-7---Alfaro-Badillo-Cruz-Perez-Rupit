@@ -15,8 +15,8 @@ Julio 2026
 1. SGD y alguna de sus variantes
 2. SGD en Scikit-learn
 3. SGD y sus variantes en redes neuronales
-3.1. SGD y sus variantes para clasificación
-3.2. SGD y sus variantes en redes neuronales para regresión
+    3.1. SGD y sus variantes para clasificación
+    3.2. SGD y sus variantes en redes neuronales para regresión
 
 # Base de imágenes seleccionada
 BloodMNIST es un dataset para análisis médico y visión por computadora: son 28x28 píxeles en escala de grises/RGB (imágenes médicas comprimidas al estilo MNIST) con 8 clases de células sanguíneas periféricas (basófilos, eosinófilos, eritroblastos, ig, linfocitos, monocitos, neutrófilos y plaquetas).
@@ -24,44 +24,45 @@ Disponible mediante la librería oficial medmnist
 
 # Detalles de cada metodología:
 
-1. SGD y alguna de sus variantes
-Implementar SGD y una de sus variantes (SGD + momentum, AdaGrad,
-RMSProp, Adam) para la pérdida cross entropy y usarlo en un problema de
-regresión logística con un dataset de imágenes (MNIST, Fashion MNIST,
-CIFAR 10 , etc)
+1. SGD y alguna de sus variantes:
+   
+    Implementar SGD y una de sus variantes (SGD + momentum, AdaGrad,
+    RMSProp, Adam) para la pérdida cross entropy y usarlo en un problema de
+    regresión logística con un dataset de imágenes (MNIST, Fashion MNIST,
+    CIFAR 10 , etc)
 
 
 2. SGD en Scikit-learn
-Realizar una revisión de la documentación de scikit-learn sobre el
-uso de descenso de gradiente estocástico, tanto para regresión como para clasificación.
-En particular, deberán revisar las clases SGDRegressor y SGDClassifier.
+    Realizar una revisión de la documentación de scikit-learn sobre el
+    uso de descenso de gradiente estocástico, tanto para regresión como para clasificación.
+    En particular, deberán revisar las clases SGDRegressor y SGDClassifier.
 
-- 1 El objetivo del proyecto es explicar cómo se implementa SGD en scikit-learn,
-- Qué funciones de pérdida permite usar,
-- Qué parámetros son importantes y
-- Cómo se relaciona su funcionamiento con lo estudiado en clase.
+    El objetivo del proyecto es explicar cómo se implementa SGD en scikit-learn,
+        - Qué funciones de pérdida permite usar,
+        - Qué parámetros son importantes y
+        - Cómo se relaciona su funcionamiento con lo estudiado en clase.
 
-Hacer un ejemplo de uso con datos reales:
-a) Revisar la documentación oficial de: SGDRegressor y SGDClassifier.
-
-b) Explicar el papel de los siguientes elementos:
-    función de pérdida; 
-    tasa de aprendizaje;
-    regularización; 
-    número de épocas;
-    escalamiento de variables;
-    criterio de parada.
-
-c) Aplicar SGDRegressor a un problema de regresión con una base de
-datos real. Una opción recomendada es la base California Housing,
-disponible en scikit-learn, o bien, aplicar SGDClassifier a un problema de clasificación con una base de datos real. 
-Una opción recomendada es la base Breast Cancer Wisconsin, también disponible en scikit-learn.
-
-d) Comparar los resultados con un método de referencia, por ejemplo:
-regresión lineal ordinaria para el problema de regresión;
-regresión logística para el problema de clasificación.
-
-3. SGD y sus variantes en redes neuronales, escoger
+    Hacer un ejemplo de uso con datos reales:
+       a) Revisar la documentación oficial de: SGDRegressor y SGDClassifier.
+        
+       b) Explicar el papel de los siguientes elementos:
+            función de pérdida; 
+            tasa de aprendizaje;
+            regularización; 
+            número de épocas;
+            escalamiento de variables;
+            criterio de parada.
+        
+       c) Aplicar SGDRegressor a un problema de regresión con una base de
+        datos real. Una opción recomendada es la base California Housing,
+        disponible en scikit-learn, o bien, aplicar SGDClassifier a un problema de clasificación con una base de datos real. 
+        Una opción recomendada es la base Breast Cancer Wisconsin, también disponible en scikit-learn.
+        
+       d) Comparar los resultados con un método de referencia, por ejemplo:
+        regresión lineal ordinaria para el problema de regresión;
+        regresión logística para el problema de clasificación.
+    
+4. SGD y sus variantes en redes neuronales, escoger
 uno de los siguientes:
 3.1. SGD y sus variantes para clasificación
 Usar redes neuronales para un problema de clasificación de imágenes. El
