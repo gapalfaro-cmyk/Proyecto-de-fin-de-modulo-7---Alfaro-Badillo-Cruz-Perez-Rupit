@@ -2,7 +2,7 @@
 
 Módulo 7: Optimización en aprendizaje de máquina
 Tarea 1
-Julio 2026
+Agosto 2026
 
 # El entregable consiste en:
 - Un reporte breve en un notebook reproducible por cada ejercicio que incluye:
