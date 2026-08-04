@@ -1,8 +1,8 @@
 ## Programaciones para el desarrollo de la Tarea 1 del Módulo VII del Diplomado en Introducción Analítica a la Ciencia de Datos
 
 Módulo 7: Optimización en aprendizaje de máquina
-Tarea 1
-Julio 2026
+Tarea 1:
+Agosto 2026
 
 # El entregable consiste en:
 - Un reporte breve en un notebook reproducible por cada ejercicio que incluye:
